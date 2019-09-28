@@ -229,10 +229,46 @@ input[type=text-message], select{
 	width: 120px;
 	height: 180px;
 }
+
+
+@media screen and (max-width: 768px) {
+	.header{
+		width: 768px;
+		
+	}
+
+	.nav {
+		margin-right: 0px;
+	}
+
+	.name {
+		margin-left: 20px;
+	}
+
+	.body1{
+		width: 650px;
+	}
+
+	.img-fluid1{
+		width: 280px;
+	}
+
+	.body {
+		width:650px;
+		height: auto;
+	}
+
+	.form {
+		width: 680px;
+	}
+
+}
+
 @media screen and (max-width: 640px) {
 	.body1{
 		width: 500px;
-		height: 550px;
+		height: 660px;
+		margin-left: 10px;
 	}
 
 	.pargraph{
@@ -248,11 +284,11 @@ input[type=text-message], select{
 	.name{
 		margin-left: 0px;
 		width: 100%;
-		text-align: center;
+		
 	}
 
 	.nav{
-		margin-right: 160px;
+		margin-right: 340px;
 	}
 
 	.form{
