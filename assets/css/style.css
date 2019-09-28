@@ -149,7 +149,7 @@ body {
 }
 
 .footer {
-    position: fixed; 
+    position: absolute; 
     bottom: 0;
 	height: 40px;
 	background-color: #666666;
@@ -230,15 +230,55 @@ input[type=text-message], select{
 	height: 180px;
 }
 
+@media screen and (max-width: 980px) {
+
+	.name{
+		margin-left: 60px;
+	}
+
+	.nav{
+		margin-right: 120px auto;
+	}
+
+	.form{
+		width: 600px;
+	}
+
+	.header{
+		width: 980px;
+	}
+
+	.body1{
+		width: 700px;
+	}
+
+	.img-fluid1{
+		width: 200px;
+		
+	}
+
+	.body{
+		width: 550px;
+		margin-left: 30px;
+		height: 740px;
+		margin-bottom: 30px;
+	}
+
+	.footer{
+		position: relative;
+		width: 980px;
+		margin-top: 10px;
+	}
+}
 
 @media screen and (max-width: 768px) {
 	.header{
-		width: 768px;
+		width: 768px auto;
 		
 	}
 
 	.nav {
-		margin-right: 0px;
+		margin-right: 320px;
 	}
 
 	.name {
@@ -246,11 +286,11 @@ input[type=text-message], select{
 	}
 
 	.body1{
-		width: 650px;
+		width: 640px;
 	}
 
 	.img-fluid1{
-		width: 280px;
+		width: 260px;
 	}
 
 	.body {
@@ -259,7 +299,21 @@ input[type=text-message], select{
 	}
 
 	.form {
-		width: 680px;
+		width: 500px;
+	}
+
+	.footer {
+		position: relative;
+		width: 768px;
+	}
+
+	.pargraph{
+		font-size: 16px;
+		width: 400px;
+	}
+
+	.picture{
+		padding: 10px 30px 10px 10px;
 	}
 
 }
@@ -288,11 +342,11 @@ input[type=text-message], select{
 	}
 
 	.nav{
-		margin-right: 340px;
+		margin-right: 350px;
 	}
 
 	.form{
-		width: 480px;
+		width: 400px;
 	}
 
 	.body{
@@ -306,5 +360,14 @@ input[type=text-message], select{
 
 	.container{
 		margin-left: 100px;
+	}
+
+	.footer{
+		position: relative;
+		width: 640px;
+	}
+
+	.header{
+		width: 640px;
 	}
 }
