@@ -252,6 +252,23 @@ input[type=text-message], select{
 	}
 
 	.nav{
-		margin-right: 150px auto;
+		margin-right: 160px;
+	}
+
+	.form{
+		width: 480px;
+	}
+
+	.body{
+		width: 550px;
+	}
+
+	.img-fluid1{
+		width: 300px;
+		
+	}
+
+	.container{
+		margin-left: 100px;
 	}
 }
